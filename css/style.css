@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+         url("/nerds/fonts/web/roboto.woff2") format("woff2"),
+         url("/nerds/fonts/web/roboto.woff") format("woff");
+}
+@font-face {
+    font-family: ;
+    src: local("RobotoBold")
+    url("/nerds/fonts/web/robotobold.woff2") format("woff2"),
+    url("/nerds/fonts/web/robotobold.woff") format("woff");
+}
+@font-face {
+    font-family: ;
+    src: local("RobotoMedium")
+    url("/nerds/fonts/web/robotomedium.woff2") format("woff2"),
+    url("/nerds/fonts/web/robotomedium.woff") format("woff");
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+a {
+    text-decoration: none;
+  }
+/*.visually-hidden {
+    visibility: hidden;
+}
+*/
+.main-header ul {
+    list-style: none;
+}
+.site-nav {
+    font-family: "RobotoMedium", "Arial", sans-serif;
+}
